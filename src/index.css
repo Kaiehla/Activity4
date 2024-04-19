@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
+
+@font-face {
+  font-family: "Gameplay";
+  src: url("assets/Gameplay.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MinecrafterAlt";
+  src: url("assets/Minecrafter.Alt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MinecrafterReg";
+  src: url("assets/Minecrafter.Reg.ttf") format("truetype");
+}
+
+:root {
+  font-family: "Press Start 2P", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  font-family: "Gameplay", sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.font-mcAlt {
+  font-family: "MinecrafterAlt", sans-serif;
+  letter-spacing: -0.2rem;
+}
+
+.font-mcReg {
+  font-family: "MinecrafterReg", sans-serif;
+}
+
+.font-pressStart {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.bg-image {
+  background-image: url("assets/bgGreenSoil.svg");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iconStyle {
+  font-size: 2.3rem;
+}
+
+.iconStyle:hover {
+  color: #636464e0;
+}
+
+.text-mc-gray {
+  color: #ccd1cf;
+  text-shadow: 10px 10px 0px black, 10px -8px 0px black, -8px 10px 0px black,
+    -8px -8px 0px black, 10px 0px 0px black, 0px 10px 0px black,
+    -8px 0px 0px black, 0px -8px 0px black;
+}
+
+.btnShotClock {
+  background-color: transparent;
+  color: #000;
+  border: 2.3px solid #000;
+  border-radius: 5px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.btnShotClock:hover {
+  color: #636464e0;
+  border: 2.3px solid #636464e0;
+}
+
+.fixed-section {
+  position: fixed;
+  top: 89%; 
+  left: 0; 
+}
+
+.text-mc-green {
+  color: #9BDA27;
+  text-shadow: 10px 10px 0px black, 10px -8px 0px black, -8px 10px 0px black,
+    -8px -8px 0px black, 0px 0px 0px black, 10px 30px 0px black,
+    -8px 0px 0px black, 0px -8px 0px black;
+}
